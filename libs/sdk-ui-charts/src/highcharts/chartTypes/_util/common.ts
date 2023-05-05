@@ -110,7 +110,7 @@ export const isFunnel = isEqual(VisualizationTypes.FUNNEL);
 /**
  * @internal
  */
-export const isPyramid = isEqual(VisualizationTypes.PYRAMID);
+export const isWaterfall = isEqual(VisualizationTypes.WATERFALL);
 
 /**
  * @internal

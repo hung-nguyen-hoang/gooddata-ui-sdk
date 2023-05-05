@@ -481,6 +481,9 @@ export const isScatterPlot: LodashIsEqual1x1;
 // @internal (undocumented)
 export const isTreemap: LodashIsEqual1x1;
 
+// @internal (undocumented)
+export const isWaterfall: LodashIsEqual1x1;
+
 // @public
 export interface ITooltipConfig {
     enabled?: boolean;
@@ -497,6 +500,19 @@ export interface ITreemapBucketProps {
 
 // @public (undocumented)
 export interface ITreemapProps extends IBucketChartProps, ITreemapBucketProps {
+}
+
+// @public (undocumented)
+export interface IWaterfallChartBucketProps {
+    filters?: NullableFiltersOrPlaceholders;
+    measures: AttributesMeasuresOrPlaceholders;
+    placeholdersResolutionContext?: any;
+    sortBy?: SortsOrPlaceholders;
+    viewBy?: AttributeOrPlaceholder;
+}
+
+// @public (undocumented)
+export interface IWaterfallChartProps extends IBucketChartProps, IWaterfallChartBucketProps {
 }
 
 // @beta (undocumented)
@@ -543,6 +559,9 @@ export function updateConfigWithSettings(config: IChartConfig, settings: ISettin
 
 // @public
 export const ViewByAttributesLimit = 2;
+
+// @public
+export const WaterfallChart: (props: IWaterfallChartProps) => JSX.Element;
 
 // @internal (undocumented)
 export const withJsxExport: <T extends object>(Component: React_2.ComponentType<T>) => React_2.ComponentType<T>;

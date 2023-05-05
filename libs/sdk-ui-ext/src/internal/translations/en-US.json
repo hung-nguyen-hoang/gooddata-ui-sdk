@@ -209,6 +209,16 @@
         "comment": "",
         "limit": 0
     },
+    "dashboard.bucket.measures_title.waterfall._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.waterfall._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
     "dashboard.bucket.attribute_title.xirr": {
         "value": "Date attribute",
         "comment": "",
@@ -355,6 +365,11 @@
         "limit": 0
     },
     "dashboard.bucket.view_title.bullet": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.waterfall": {
         "value": "View by",
         "comment": "",
         "limit": 0

@@ -33,6 +33,12 @@ export { ScatterPlot, IScatterPlotProps, IScatterPlotBucketProps } from "./scatt
 
 export { Treemap, ITreemapProps, ITreemapBucketProps } from "./treemap/Treemap";
 
+export {
+    WaterfallChart,
+    IWaterfallChartProps,
+    IWaterfallChartBucketProps,
+} from "./waterfallChart/WaterfallChart";
+
 export { Xirr, IXirrProps, IXirrBucketProps } from "./xirr/Xirr";
 
 export { CoreXirr } from "./xirr/CoreXirr";

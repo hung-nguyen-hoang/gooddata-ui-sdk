@@ -19,6 +19,7 @@ const INSIGHT_ICON_MAP: Record<string, React.FC<IIconProps>> = {
     "local:line": Icon.Line,
     "local:pushpin": Icon.Geo,
     "local:pie": Icon.Pie,
+    "local:waterfall": Icon.Waterfall,
 };
 
 /**

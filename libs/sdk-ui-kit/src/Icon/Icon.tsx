@@ -60,6 +60,7 @@ import { TreeMap } from "./icons/InsightIcons/TreeMap";
 import { HeatMap } from "./icons/InsightIcons/HeatMap";
 import { Bullet } from "./icons/InsightIcons/Bullet";
 import { Geo } from "./icons/InsightIcons/Geo";
+import { Waterfall } from "./icons/InsightIcons/Waterfall";
 import { EmbedCodeIcon } from "./icons/EmbedCodeIcon";
 import { Origin } from "./icons/Origin";
 import { Token } from "./icons/Token";
@@ -126,6 +127,7 @@ export const Icon: Record<string, React.FC<IIconProps>> = {
     HeatMap,
     Bullet,
     Geo,
+    Waterfall,
     EmbedCodeIcon,
     Error,
     Aborted,

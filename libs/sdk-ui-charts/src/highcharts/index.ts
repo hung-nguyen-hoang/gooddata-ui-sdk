@@ -29,6 +29,7 @@ export {
     isPieChart,
     isPieOrDonutChart,
     isBulletChart,
+    isWaterfall,
 } from "./chartTypes/_util/common";
 
 export { BOTTOM, MIDDLE, TOP } from "./constants/alignments";

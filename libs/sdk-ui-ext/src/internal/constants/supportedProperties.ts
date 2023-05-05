@@ -207,6 +207,13 @@ export const FUNNELCHART_SUPPORTED_PROPERTIES = [
     "chart.verticalAlign",
 ];
 
+export const WATERFALL_CHART_SUPPORTED_PROPERTIES = [
+    "dataLabels.visible",
+    "legend",
+    "colorMapping",
+    "chart.verticalAlign",
+];
+
 export const TREEMAP_SUPPORTED_PROPERTIES = ["dataLabels.visible", "legend", "colorMapping", "zoomInsight"];
 
 export const HEATMAP_SUPPORTED_PROPERTIES = [
